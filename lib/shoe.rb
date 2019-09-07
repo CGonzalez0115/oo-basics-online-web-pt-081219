@@ -50,5 +50,6 @@ end
 shoe = Shoe.new("Nike")
 shoe.condition
 shoe.cobble
-shoe.condition = "new"
-shoe.condition
+
+shoe.instance_variable_set(:condition, "new")
+shoe.instance_variable_get(:condition)

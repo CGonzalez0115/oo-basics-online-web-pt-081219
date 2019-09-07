@@ -44,12 +44,6 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
+    @condition = "new"
   end
 end
-
-shoe = Shoe.new("Nike")
-shoe.condition
-shoe.cobble
-shoe.condition
-shoe.condition = "new"
-shoe.condition

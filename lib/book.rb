@@ -12,6 +12,10 @@ class Book
     @title
   end
 
+  def name=(name)
+    @name = name
+  end
+
   def name
     @name
   end

@@ -46,3 +46,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 end
+
+shoe = shoe.new("Nike")
+shoe.condition
+shoe.cobble
+shoe.condition = "new"
+shoe condition

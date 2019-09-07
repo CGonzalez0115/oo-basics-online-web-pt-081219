@@ -7,7 +7,7 @@ class Book
     @title
   end
 
-  def author(author)
+  def author=(author)
     @author = author
   end
 
@@ -15,3 +15,5 @@ class Book
     @author
   end
 end
+
+instance.property = "something"

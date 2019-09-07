@@ -1,7 +1,6 @@
 class Book
-  def initialize(title, name = "Agatha Christie")
+  def initialize(title)
     @title = title
-    @name = name
   end
 
   def title=(title)
@@ -10,13 +9,5 @@ class Book
 
   def title
     @title
-  end
-
-  def name=(name)
-    @name = name
-  end
-
-  def name
-    @name
   end
 end

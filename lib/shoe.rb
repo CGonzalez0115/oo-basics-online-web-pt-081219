@@ -51,4 +51,4 @@ shoe = Shoe.new("Nike")
 shoe.condition
 shoe.cobble
 shoe.condition = "new"
-shoe condition
+shoe.condition

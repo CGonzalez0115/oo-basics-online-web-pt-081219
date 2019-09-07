@@ -16,4 +16,3 @@ class Book
   end
 end
 
-instance.property = "something"

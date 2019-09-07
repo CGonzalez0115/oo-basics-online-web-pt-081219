@@ -1,7 +1,7 @@
 class Book
-  def initialize(title, author = "Agatha Christie")
+  def initialize(title, name = "Agatha Christie")
     @title = title
-    @author = author
+    @name = name
   end
 
   def title=(title)
@@ -12,7 +12,7 @@ class Book
     @title
   end
 
-  def author
-    @author
+  def name
+    @name
   end
 end
